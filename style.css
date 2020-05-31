@@ -102,3 +102,31 @@ body{
 .new-arrivals {
    text-align: center;
 }
+
+.clothings {
+   width: 
+}
+
+.arrivals-image img {
+   height: 200px;
+   width: 100%;
+}
+
+.arrivals-section {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+}
+.descriptions h4 {
+font-size: 10px;
+}
+
+.rate i {
+   font-size: 10px;
+   color: pink;
+}
+
+.rate span {
+   font-size: 10px;
+   font-weight: bold;
+}
