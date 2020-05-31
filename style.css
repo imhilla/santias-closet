@@ -50,7 +50,7 @@ align-items: center;
 
 .join {
    background-color: pink;
-   line-height: 30px;
+   height: 50px;
 }
 
 .join a {
@@ -60,5 +60,5 @@ align-items: center;
 .join h1 {
    font-size: 15px;
    text-align: center;
-   padding: 0 10px;
+   padding: 10px 10px;
 }
