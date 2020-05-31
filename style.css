@@ -1,7 +1,6 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
-  width: 100vw;
   overflow-x: hidden;
 }
 .header-wrapper {
@@ -29,7 +28,7 @@ body {
 
 .logo img {
   height: 50px;
-  width: 150px;
+  width: 210px;
 }
 
 .search img {
@@ -90,4 +89,14 @@ body {
    background-color: pink;
    align-items: center;
 }
-a
+.advert h2 {
+   font-size: 13px;
+   line-height: 5px;
+   font-family: 'Dancing Script', cursive;
+}
+
+.advert h3 {
+   font-size: 15px;
+   line-height: 5px;
+   font-family: 'Dancing Script', cursive;
+}
