@@ -1,81 +1,86 @@
-html, body {
-   font-family: 'Roboto', sans-serif;
-   overflow-x: hidden;
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 .header-wrapper {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   line-height: 60px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 60px;
 }
 
-.search-cart, .menu-logo {
-   display: flex;
-   flex-direction: row;
+.search-cart,
+.menu-logo {
+  display: flex;
+  flex-direction: row;
 }
 
 .header-item {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .menu img {
-   height: 30px;
-   width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .logo img {
-   height: 50px;
-   width:150px ;
+  height: 50px;
+  width: 150px;
 }
 
 .search img {
-   height: 25px;
-   width: 25px;
+  height: 25px;
+  width: 25px;
 }
 
 .cart i {
-   font-size: 25px;
+  font-size: 25px;
 }
 
 .menu-logo {
-align-items: center;
-
+  align-items: center;
 }
 
 .cart {
-   margin: 0 10px;
+  margin: 0 10px;
 }
 
 .join {
-   background-color: pink;
-   height: 50px;
+  background-color: pink;
+  height: 50px;
 }
 
 .join a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .join h1 {
-   font-size: 15px;
-   text-align: center;
-   padding: 10px 10px;
-   color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 10px;
+  color: black;
 }
 
 .billboard {
-   display: flex;
-   flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.image1, .image2, .image3 {
-   width: 33.3%;
-   height: 50vh;
+.image1,
+.image2,
+.image3 {
+  width: 33.3%;
+  height: 40vh;
 }
 
-.image1 img, .image2 img, .image3 img {
-   width: 100%;
-   height: 50vh;
+.image1 img,
+.image2 img,
+.image3 img {
+  width: 100%;
+  height: 40vh;
 }
 
+.advert 
