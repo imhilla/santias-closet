@@ -125,6 +125,7 @@ body {
 
 .rate {
    text-align: center;
+   line-height: 5px;
 }
 
 .rate i {
@@ -140,4 +141,29 @@ body {
 .price {
    text-align: center;
    font-size: 13px;
+}
+
+.menu-sections {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+}
+
+.new {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.new img {
+   height: 200px;
+   width: 100%;
+}
+
+.new a {
+   color: black;
+   text-decoration: none;
+   text-align: center;
+   margin-top: 10px;
+   font-weight: bold;
 }
