@@ -1,5 +1,5 @@
 html, body {
-   width: 100vw;
+   font-family: 'Roboto', sans-serif;
 }
 .header-wrapper {
    display: flex;
@@ -49,10 +49,15 @@ align-items: center;
 
 .join {
    background-color: pink;
-   line-height: 50px;
+   line-height: 30px;
+}
+
+.join a {
+   text-decoration: none;
 }
 
 .join h1 {
    font-size: 15px;
    text-align: center;
+   padding: 0 10px;
 }
