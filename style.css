@@ -1,7 +1,11 @@
+html, body {
+   width: 100vw;
+}
 .header-wrapper {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+   line-height: 80px;
 
 }
 
@@ -41,4 +45,14 @@ align-items: center;
 
 .cart {
    margin: 0 10px;
+}
+
+.join {
+   background-color: pink;
+   line-height: 50px;
+}
+
+.join h1 {
+   font-size: 15px;
+   text-align: center;
 }
