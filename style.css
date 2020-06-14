@@ -210,7 +210,7 @@ input {
 }
 
 .social div i {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .twitter, .facebook {
@@ -259,4 +259,8 @@ input {
 
 p {
   font-size: 15px;
+}
+
+.about-us, .contacts {
+  border-bottom: 1px solid rgb(177, 175, 175);
 }
