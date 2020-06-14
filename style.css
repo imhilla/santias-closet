@@ -89,6 +89,7 @@ body {
   background-color: pink;
   align-items: center;
 }
+
 .advert h2 {
   font-size: 13px;
   font-family: "Dancing Script", cursive;
@@ -102,10 +103,6 @@ body {
 .new-arrivals {
   text-align: center;
   font-size: 14px;
-}
-
-.clothings {
-  width: ;
 }
 
 .arrivals-image img {
@@ -227,4 +224,34 @@ input {
 .copyright {
   text-align: center;
   margin-top: 10px;
+}
+
+.payment-gateway {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mpesa {
+  height: 40px;
+  width: 60px;
+}
+
+.paypal {
+  height: 40px;
+  width: 60px;
+  background-color: white;
+  margin: 0 10px 0 10px;
+}
+
+.applepay {
+  height: 40px;
+  width: 60px;
+  margin: 0 10px 0 0;
+}
+
+.gpay {
+  height: 40px;
+  width: 60px;
 }
